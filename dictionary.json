@@ -1,10 +1,11 @@
 {
+    "a": "asd",
     "metadata vocabulary": {
         "data name": {
             "eng_definition": "name of the data set, named by data provider",
             "var_name": "DataName",
             "data_type": "string",
-            "data_example": "Zinc coated Fe-6Mn-3Al steel plate; Ti\/Al dissimilar welded joint; Fe\/C catalyst; Gd doped MOF 370; LLZO (Li7La3Zr2O12) Solid Electrolyte"
+            "data_example": "test"
         },
         "contributor": {
             "eng_definition": "researcher(s) who provide the data",
@@ -28,14 +29,14 @@
             "var_name": "DataGenerationDate",
             "alias": "",
             "data_type": "string (Year-Month-date)",
-            "data_example": "2021-05-24; 2008-03-01"
+            "data_example": "test"
         },
         "note on data ": {
             "eng_definition": "supplemetary note on data such as data source, data owner, archive date, etc",
             "var_name": "NoteOnData",
             "alias": "",
             "data_type": "string",
-            "data_example": "extracted from Acta Mater vol 13, page 2089 (2000); archived on 01\/01\/2021; 10.1016\/j.actamat.2016.08.081; generated in CNMD, POSTECH (2021)  "
+            "data_example": "test"
         }
     },
     "materials vocabulary": {
@@ -760,7 +761,7 @@
                             "eng_definition": "elemental constituent of phase_n",
                             "var_name": "Composition",
                             "alias": "",
-                            "data_type": "dictionary {constituent:constituent_quantity,...,unit:string,uncertainty:uncertainty value} ",
+                            "data_type": "dictionary {constituent:constituent_quantity,...,unit:string,uncertainty:uncertainty value}\u00a0",
                             "data_example": "{Pt:56.0, Ni:34.7, unit:at.%, uncertainty:0.02};{Fe2O3:97.8, Y2O3:2.2, unit:wt.%, uncertainty:0.2}"
                         },
                         "fraction": {
@@ -1703,17 +1704,17 @@
                         "var_name": "DensityOfStates",
                         "alias": "density of states, DOS",
                         "DOS file": {
-                            "eng_definition": "numerical array file about the density of state ",
+                            "eng_definition": "numerical array file about the density of state\u00a0",
                             "var_name": "DOSFile",
                             "alias": "",
                             "data_type": "file",
-                            "data_example": "DOS111_34.xls; "
+                            "data_example": "DOS111_34.xls;\u00a0"
                         },
                         "value": {
                             "eng_definition": "data value",
                             "var_name": "DataValue",
                             "data_type": "numeric array",
-                            "data_unit": "as defined in \"array numeric data\" "
+                            "data_unit": "as defined in \"array numeric data\"\u00a0"
                         },
                         "measurement": {
                             "eng_definition": "mesurement method",
@@ -3378,7 +3379,7 @@
             "configuration": {
                 "eng_definition": "configurational information of the memristive system ",
                 "var_name ": "Configuration",
-                "device type ": {
+                "device type\u00a0": {
                     "eng_definition": "type of the device",
                     "var_name": "DeviceType",
                     "data_type": "array",
@@ -3901,7 +3902,7 @@
             }
         },
         "DFT": {
-            "eng_definition": "quantum mechanical calculations using density functional theory ",
+            "eng_definition": "quantum mechanical calculations using density functional theory\u00a0",
             "var_name": "DFT",
             "code": {
                 "eng_definition": "DFT code used in the calculation with version information",
@@ -5665,7 +5666,7 @@
                     "data_example": "Ir"
                 },
                 "concentration": {
-                    "eng_definition": "concentration of dopant in material_n",
+                    "eng_definition": "concentration of dopant in\u00a0material_n",
                     "var_name": "Concentration",
                     "alias": "amount",
                     "data_type": "numeric",
@@ -5702,7 +5703,7 @@
                 "data_example": 0.75
             },
             "size of ingot": {
-                "eng_definition": "size of ingot ",
+                "eng_definition": "size of ingot\u00a0",
                 "var_name": "SizeOfIngot",
                 "data_type": "numeric",
                 "data_unit": "mm",
@@ -6179,7 +6180,7 @@
                     "data_example": "Ir"
                 },
                 "concentration": {
-                    "eng_definition": "concentration of dopant in material_n",
+                    "eng_definition": "concentration of dopant in\u00a0material_n",
                     "var_name": "Concentration",
                     "alias": "amount",
                     "data_type": "numeric",
@@ -6216,7 +6217,7 @@
                 "data_example": 0.75
             },
             "size of ingot": {
-                "eng_definition": "size of ingot ",
+                "eng_definition": "size of ingot\u00a0",
                 "var_name": "SizeOfIngot",
                 "data_type": "numeric",
                 "data_unit": "mm",
@@ -6343,7 +6344,7 @@
             "eng_definition": "lithography process data",
             "var_name": "Lithography",
             "light source": {
-                "eng_definition": "information of light source for lithography including VIS, UV and X-ray ",
+                "eng_definition": "information of light source for lithography including VIS, UV and X-ray\u00a0",
                 "var_name": "LightSource",
                 "type": {
                     "eng_definition": "method for making light of the specific wavelength",
@@ -6366,7 +6367,7 @@
                 "var_name": "Mask",
                 "alias": "",
                 "data_type": "string",
-                "data_example": "Cr; siloxane; PDMS-HSQ; "
+                "data_example": "Cr; siloxane; PDMS-HSQ;\u00a0"
             },
             "photoresist": {
                 "eng_definition": "photosensitive material for patterning or e-beam sensitive material for pattering",
@@ -6425,7 +6426,7 @@
                     "data_example": 30
                 },
                 "exposure time": {
-                    "eng_definition": "Time for exposure ",
+                    "eng_definition": "Time for exposure\u00a0",
                     "var_name": "ExposureTime",
                     "data_type": "numeric",
                     "data_unit": "second",
@@ -6459,7 +6460,7 @@
                 }
             },
             "PR development": {
-                "eng_definition": "process to make a pattern on PR by removing exposed or unexposed region of PR ",
+                "eng_definition": "process to make a pattern on PR by removing exposed or unexposed region of PR\u00a0",
                 "var_name": "PRDevelopment",
                 "alias": "",
                 "data_type": "string",
@@ -6782,7 +6783,7 @@
             }
         },
         "rinsing": {
-            "eng_definition": "specimen rinse by liquid ",
+            "eng_definition": "specimen rinse by liquid\u00a0",
             "var_name": "Rinsing",
             "temperature": {
                 "eng_definition": "Temperature of the rinsing process",
@@ -7315,7 +7316,7 @@
                     "data_example": "Ir"
                 },
                 "concentration": {
-                    "eng_definition": "concentration of dopant in material_n",
+                    "eng_definition": "concentration of dopant in\u00a0material_n",
                     "var_name": "Concentration",
                     "alias": "amount",
                     "data_type": "numeric",
@@ -7352,7 +7353,7 @@
                 "data_example": 1
             },
             "size of ingot": {
-                "eng_definition": "size of ingot ",
+                "eng_definition": "size of ingot\u00a0",
                 "var_name": "SizeOfIngot",
                 "data_type": "numeric",
                 "data_unit": "mm",
