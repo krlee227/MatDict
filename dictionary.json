@@ -4,7 +4,7 @@
             "eng_definition": "name of the data set, named by data provider",
             "var_name": "DataName",
             "data_type": "string",
-            "data_example": "Zinc coated Fe-6Mn-3Al steel plate; Ti/Al dissimilar welded joint; Fe/C catalyst; Gd doped MOF 370; LLZO (Li7La3Zr2O12) Solid Electrolyte"
+            "data_example": "Zinc coated Fe-6Mn-3Al steel plate; Ti\/Al dissimilar welded joint; Fe\/C catalyst; Gd doped MOF 370; LLZO (Li7La3Zr2O12) Solid Electrolyte"
         },
         "contributor": {
             "eng_definition": "researcher(s) who provide the data",
@@ -35,7 +35,7 @@
             "var_name": "NoteOnData",
             "alias": "",
             "data_type": "string",
-            "data_example": "extracted from Acta Mater vol 13, page 2089 (2000); archived on 01/01/2021; 10.1016/j.actamat.2016.08.081; generated in CNMD, POSTECH (2021)  "
+            "data_example": "extracted from Acta Mater vol 13, page 2089 (2000); archived on 01\/01\/2021; 10.1016\/j.actamat.2016.08.081; generated in CNMD, POSTECH (2021)  "
         }
     },
     "materials vocabulary": {
@@ -186,7 +186,7 @@
                         }
                     },
                     "strukturbericht designation": {
-                        "eng_definition": "crystal structure classification system established by the Zeitschrift für Kristallographie",
+                        "eng_definition": "crystal structure classification system established by the Zeitschrift f\u00fcr Kristallographie",
                         "var_name": "StructureDesignation",
                         "alias": "",
                         "dat type": "string",
@@ -412,7 +412,7 @@
                                 "var_name": "BurgersVector",
                                 "alias": "",
                                 "data_type": "vector",
-                                "data_example": "(a/3)<100>"
+                                "data_example": "(a\/3)<100>"
                             },
                             "density": {
                                 "eng_definition": "measure of the number of dislocations in a unit volume of a crystalline material",
@@ -422,8 +422,8 @@
                                     "eng_definition": "data value",
                                     "var_name": "DataValue",
                                     "data_type": "numeric",
-                                    "data_unit": "number/m^2",
-                                    "data_example": 300000000000000000000
+                                    "data_unit": "number\/m^2",
+                                    "data_example": 3.0e+20
                                 },
                                 "uncertainty": {
                                     "eng_definition": "uncertainty of the value",
@@ -440,7 +440,7 @@
                                     "eng_definition": "data value",
                                     "var_name": "DataValue",
                                     "data_type": "numeric",
-                                    "data_unit": "m/sec",
+                                    "data_unit": "m\/sec",
                                     "data_example": 0.4
                                 },
                                 "uncertainty": {
@@ -484,7 +484,7 @@
                                     "eng_definition": "data value",
                                     "var_name": "DataValue",
                                     "data_type": "numeric",
-                                    "data_unit": "J/m^2",
+                                    "data_unit": "J\/m^2",
                                     "data_example": 0.03
                                 },
                                 "uncertainty": {
@@ -538,7 +538,7 @@
                                     "eng_definition": "data value",
                                     "var_name": "DataValue",
                                     "data_type": "numeric",
-                                    "data_unit": "$J/m^2$",
+                                    "data_unit": "$J\/m^2$",
                                     "data_example": 0.5
                                 },
                                 "uncertainty": {
@@ -574,7 +574,7 @@
                             "eng_definition": "data value",
                             "var_name": "DataValue",
                             "data_type": "numeric",
-                            "data_unit": "kg/m^3",
+                            "data_unit": "kg\/m^3",
                             "data_example": 1.45
                         },
                         "uncertainty": {
@@ -750,7 +750,7 @@
                         "eng_definition": "information of phase_n ",
                         "var_name": "Phase_(n)",
                         "name": {
-                            "eng_definition": "name of a phase according to its thermodynamic state and/or crystal structure",
+                            "eng_definition": "name of a phase according to its thermodynamic state and\/or crystal structure",
                             "var_name": "Name",
                             "alias": "",
                             "data_type": "string",
@@ -760,7 +760,7 @@
                             "eng_definition": "elemental constituent of phase_n",
                             "var_name": "Composition",
                             "alias": "",
-                            "data_type": "dictionary {constituent:constituent_quantity,...,unit:string,uncertainty:uncertainty value} ",
+                            "data_type": "dictionary {constituent:constituent_quantity,...,unit:string,uncertainty:uncertainty value} ",
                             "data_example": "{Pt:56.0, Ni:34.7, unit:at.%, uncertainty:0.02};{Fe2O3:97.8, Y2O3:2.2, unit:wt.%, uncertainty:0.2}"
                         },
                         "fraction": {
@@ -799,7 +799,7 @@
                             "eng_definition": "data value",
                             "var_name": "DataValue",
                             "data_type": "numeric",
-                            "data_unit": "cm^3/g",
+                            "data_unit": "cm^3\/g",
                             "data_example": 2
                         },
                         "uncertainty": {
@@ -830,7 +830,7 @@
                                 "eng_definition": "data value",
                                 "var_name": "DataValue",
                                 "data_type": "numeric",
-                                "data_unit": "cm^2/g",
+                                "data_unit": "cm^2\/g",
                                 "data_example": 3326
                             },
                             "uncertainty": {
@@ -848,7 +848,7 @@
                                 "eng_definition": "data value",
                                 "var_name": "DataValue",
                                 "data_type": "numeric",
-                                "data_unit": "cm^2/g",
+                                "data_unit": "cm^2\/g",
                                 "data_example": 3000
                             },
                             "uncertainty": {
@@ -971,7 +971,7 @@
                                 "eng_definition": "data value",
                                 "var_name": "DataValue",
                                 "data_type": "numeric",
-                                "data_unit": "/h",
+                                "data_unit": "\/h",
                                 "data_example": 0.001
                             },
                             "uncertainty": {
@@ -1154,7 +1154,7 @@
                                 "eng_definition": "data value",
                                 "var_name": "DataValue",
                                 "data_type": "numeric",
-                                "data_unit": "/GPa",
+                                "data_unit": "\/GPa",
                                 "data_example": 180
                             },
                             "uncertainty": {
@@ -1424,7 +1424,7 @@
                             }
                         },
                         "ductile-to-brittle transition temperature": {
-                            "eng_definition": "temperature at which there is a pronounced decrease in a material’s ability to absorb force without fracturing",
+                            "eng_definition": "temperature at which there is a pronounced decrease in a material\u2019s ability to absorb force without fracturing",
                             "var_name": "DBTransTemp",
                             "alias": "DBTT",
                             "value": {
@@ -1572,7 +1572,7 @@
                             "var_name": "DataValue",
                             "data_type": "numeric",
                             "data_unit": "s",
-                            "data_example": 1e-7
+                            "data_example": 1.0e-7
                         },
                         "uncertainty": {
                             "eng_definition": "uncertainty of the value",
@@ -1679,7 +1679,7 @@
                             "eng_definition": "data value",
                             "var_name": "DataValue",
                             "data_type": "numeric",
-                            "data_unit": "S/m (Siemens per meter)",
+                            "data_unit": "S\/m (Siemens per meter)",
                             "data_example": 11.2
                         },
                         "uncertainty": {
@@ -1703,17 +1703,17 @@
                         "var_name": "DensityOfStates",
                         "alias": "density of states, DOS",
                         "DOS file": {
-                            "eng_definition": "numerical array file about the density of state ",
+                            "eng_definition": "numerical array file about the density of state ",
                             "var_name": "DOSFile",
                             "alias": "",
                             "data_type": "file",
-                            "data_example": "DOS111_34.xls; "
+                            "data_example": "DOS111_34.xls; "
                         },
                         "value": {
                             "eng_definition": "data value",
                             "var_name": "DataValue",
                             "data_type": "numeric array",
-                            "data_unit": "as defined in \"array numeric data\" "
+                            "data_unit": "as defined in \"array numeric data\" "
                         },
                         "measurement": {
                             "eng_definition": "mesurement method",
@@ -1942,7 +1942,7 @@
                         }
                     },
                     "spin-orbit splitting energy": {
-                        "eng_definition": "energy level splitting energy produced by the spin–orbit interaction of a particle's spin with its motion inside a potential",
+                        "eng_definition": "energy level splitting energy produced by the spin\u2013orbit interaction of a particle's spin with its motion inside a potential",
                         "var_name": "SpinOrbitSplittingEnergy",
                         "alias": "",
                         "value": {
@@ -2034,7 +2034,7 @@
                             "eng_definition": "data value",
                             "var_name": "DataValue",
                             "data_type": "numeric",
-                            "data_unit": "\\mu (B/H)",
+                            "data_unit": "\\mu (B\/H)",
                             "data_example": 13
                         },
                         "uncertainty": {
@@ -2093,7 +2093,7 @@
                             "eng_definition": "data value",
                             "var_name": "DataValue",
                             "data_type": "numeric",
-                            "data_unit": "J/mol",
+                            "data_unit": "J\/mol",
                             "data_example": 1500
                         },
                         "uncertainty": {
@@ -2166,7 +2166,7 @@
                             "eng_definition": "data value",
                             "var_name": "DataValue",
                             "data_type": "numeric",
-                            "data_unit": "J/(kg.K)",
+                            "data_unit": "J\/(kg.K)",
                             "data_example": 100
                         },
                         "uncertainty": {
@@ -2198,7 +2198,7 @@
                             "eng_definition": "data value",
                             "var_name": "DataValue",
                             "data_type": "numeric",
-                            "data_unit": "W/(m.K) (watts per meter-kelvin)",
+                            "data_unit": "W\/(m.K) (watts per meter-kelvin)",
                             "data_example": 12.3
                         },
                         "uncertainty": {
@@ -2225,8 +2225,8 @@
                             "eng_definition": "data value",
                             "var_name": "DataValue",
                             "data_type": "numeric",
-                            "data_unit": "m^2/s",
-                            "data_example": 1e-8
+                            "data_unit": "m^2\/s",
+                            "data_example": 1.0e-8
                         },
                         "uncertainty": {
                             "eng_definition": "uncertainty of the value",
@@ -2252,8 +2252,8 @@
                             "eng_definition": "data value",
                             "var_name": "DataValue",
                             "data_type": "numeric",
-                            "data_unit": "1/K",
-                            "data_example": 1e-8
+                            "data_unit": "1\/K",
+                            "data_example": 1.0e-8
                         },
                         "uncertainty": {
                             "eng_definition": "uncertainty of the value",
@@ -2523,7 +2523,7 @@
                             "eng_definition": "data value",
                             "var_name": "DataValue",
                             "data_type": "numeric",
-                            "data_unit": "A/m^2 (Amphere per square meter)",
+                            "data_unit": "A\/m^2 (Amphere per square meter)",
                             "data_example": 10
                         },
                         "uncertainty": {
@@ -2559,7 +2559,7 @@
                             "eng_definition": "data value",
                             "var_name": "DataValue",
                             "data_type": "numeric",
-                            "data_unit": "mm/year",
+                            "data_unit": "mm\/year",
                             "data_example": 0.1
                         },
                         "uncertainty": {
@@ -2577,7 +2577,7 @@
                             "eng_definition": "data value",
                             "var_name": "DataValue",
                             "data_type": "numeric",
-                            "data_unit": "A/m^2 (Amphere per square meter)",
+                            "data_unit": "A\/m^2 (Amphere per square meter)",
                             "data_example": 10
                         },
                         "uncertainty": {
@@ -2736,7 +2736,7 @@
                 "var_name": "Description",
                 "alias": "",
                 "data_type": "string",
-                "data_example": "Fe/C catalyst for CO2 reduction"
+                "data_example": "Fe\/C catalyst for CO2 reduction"
             },
             "configuration": {
                 "eng_definition": "configurational information of the catalyst system ",
@@ -3308,7 +3308,7 @@
                                 "eng_definition": "data value",
                                 "var_name": "DataValue",
                                 "data_type": "numeric",
-                                "data_unit": "kJ/mol",
+                                "data_unit": "kJ\/mol",
                                 "data_example": -45
                             },
                             "uncertainty": {
@@ -3341,7 +3341,7 @@
                                     "eng_definition": "data value",
                                     "var_name": "DataValue",
                                     "data_type": "numeric",
-                                    "data_unit": "mmol/g",
+                                    "data_unit": "mmol\/g",
                                     "data_example": 2
                                 },
                                 "uncertainty": {
@@ -3378,7 +3378,7 @@
             "configuration": {
                 "eng_definition": "configurational information of the memristive system ",
                 "var_name ": "Configuration",
-                "device type ": {
+                "device type ": {
                     "eng_definition": "type of the device",
                     "var_name": "DeviceType",
                     "data_type": "array",
@@ -3584,7 +3584,7 @@
                             "var_name": "DataValue",
                             "data_type": "numeric",
                             "data_unit": "A",
-                            "data_example": 0.00001
+                            "data_example": 1.0e-5
                         },
                         "uncertainty": {
                             "eng_definition": "uncertainty of the value",
@@ -3602,7 +3602,7 @@
                             "var_name": "DataValue",
                             "data_type": "numeric",
                             "data_unit": "A",
-                            "data_example": 1e-7
+                            "data_example": 1.0e-7
                         },
                         "uncertainty": {
                             "eng_definition": "uncertainty of the value",
@@ -3717,7 +3717,7 @@
                             "eng_definition": "data value",
                             "var_name": "DataValue",
                             "data_type": "numeric",
-                            "data_unit": "Ω",
+                            "data_unit": "\u03a9",
                             "data_example": 100000000
                         },
                         "uncertainty": {
@@ -3735,7 +3735,7 @@
                             "eng_definition": "data value",
                             "var_name": "DataValue",
                             "data_type": "numeric",
-                            "data_unit": "Ω",
+                            "data_unit": "\u03a9",
                             "data_example": 100
                         },
                         "uncertainty": {
@@ -3787,9 +3787,9 @@
                 "selectivity": {
                     "eng_definition": "Ability to indicate the resistive state of devices",
                     "var_name": "Selectivity",
-                    "on/off ratio": {
+                    "on\/off ratio": {
                         "eng_definition": "The ratio of the high resistance to the low resistance of the device",
-                        "var_name": "on/off_ratio",
+                        "var_name": "on\/off_ratio",
                         "value": {
                             "eng_definition": "data value",
                             "var_name": "DataValue",
@@ -3901,7 +3901,7 @@
             }
         },
         "DFT": {
-            "eng_definition": "quantum mechanical calculations using density functional theory ",
+            "eng_definition": "quantum mechanical calculations using density functional theory ",
             "var_name": "DFT",
             "code": {
                 "eng_definition": "DFT code used in the calculation with version information",
@@ -4039,7 +4039,7 @@
                     "alias": "",
                     "data_type": "numeric",
                     "data_unit": "eV ",
-                    "data_example": 0.00001
+                    "data_example": 1.0e-5
                 },
                 "scf": {
                     "eng_definition": "energy criterion for electronic optimization",
@@ -4047,7 +4047,7 @@
                     "alias": "",
                     "data_type": "numeric",
                     "data_unit": "eV ",
-                    "data_example": 0.00001
+                    "data_example": 1.0e-5
                 }
             },
             "symmetry": {
@@ -4526,7 +4526,7 @@
                         "var_name": "strainRate",
                         "alias": "",
                         "data_type": "numeric",
-                        "data_unit": "/ps",
+                        "data_unit": "\/ps",
                         "data_example": 0.2
                     }
                 },
@@ -4581,7 +4581,7 @@
                         "eng_definition": "rate at which temperature is raised",
                         "var_name": "HeatingRate_n",
                         "data_type": "numeric",
-                        "data_unit": "K/ps",
+                        "data_unit": "K\/ps",
                         "data_example": 100
                     },
                     "holding temperature_(n)": {
@@ -4602,7 +4602,7 @@
                         "eng_definition": "rate at which temperature is lowered",
                         "var_name": "CoolingRate_n",
                         "data_type": "numeric",
-                        "data_unit": "K/ps",
+                        "data_unit": "K\/ps",
                         "data_example": 10
                     },
                     "final temperature": {
@@ -4614,7 +4614,7 @@
                     }
                 },
                 "constitutional": {
-                    "eng_definition": "dynamic addition/removal of atom to/from the system",
+                    "eng_definition": "dynamic addition\/removal of atom to\/from the system",
                     "var_name": "Constitutional",
                     "alias ": "deposition; bombardment, etching",
                     "condition set": {
@@ -4654,14 +4654,14 @@
                         }
                     },
                     "atom": {
-                        "eng_definition": "element symbol of the added/removed atom or molecule",
+                        "eng_definition": "element symbol of the added\/removed atom or molecule",
                         "var_name": "DynamicChangeAtom",
                         "alias": "",
                         "data_type": "string",
                         "data_example": "Ar; Cr; C; CH4; O2"
                     },
                     "energy": {
-                        "eng_definition": "energy of the added/removed atom or molecule",
+                        "eng_definition": "energy of the added\/removed atom or molecule",
                         "var_name": "DynamicChangeEnergy",
                         "alias": "",
                         "data_type": "numeric",
@@ -4669,7 +4669,7 @@
                         "data_example": 50
                     },
                     "direction": {
-                        "eng_definition": "direction of the added/removed atom or molecule",
+                        "eng_definition": "direction of the added\/removed atom or molecule",
                         "var_name": "DynamicChangeDirection",
                         "alias": "",
                         "data_type": "string",
@@ -4684,7 +4684,7 @@
                         "data_example": 0.1
                     },
                     "total number": {
-                        "eng_definition": "total number of added/removed atoms or molecules",
+                        "eng_definition": "total number of added\/removed atoms or molecules",
                         "var_name": "DynamicChangeTotalNumnber",
                         "alias": "",
                         "data_type": "numeric",
@@ -4779,7 +4779,7 @@
                 "data_example": 1
             }
         },
-        "gas adsorption/desorption isotherm": {
+        "gas adsorption\/desorption isotherm": {
             "eng_definition": "gas adsorption or desorption profile versus pressure at a constant temperature",
             "var_name": "GasAdsorptionDesorptionIsotherm",
             "adsorbed gas": {
@@ -4853,7 +4853,7 @@
                 "eng_definition": "flow rate of gas to be measured",
                 "var_name": "ChromatographyFlowRate",
                 "data_type": "numeric",
-                "data_unit": "mL/min",
+                "data_unit": "mL\/min",
                 "data_example": 5
             },
             "temperature": {
@@ -4887,7 +4887,7 @@
                 "eng_definition": "analysis method for gas chromatography",
                 "var_name": "ChromatographyAnalysisMethod",
                 "data_type": "string",
-                "data_example": "gas chromatography, gas chromatography–mass spectrometry"
+                "data_example": "gas chromatography, gas chromatography\u2013mass spectrometry"
             }
         },
         "hardness test": {
@@ -5037,7 +5037,7 @@
                     "var_name": "DataValue",
                     "data_type": "numeric",
                     "data_unit": "A",
-                    "data_example": 1e-10
+                    "data_example": 1.0e-10
                 },
                 "error": {
                     "eng_def ": "error of the value",
@@ -5054,7 +5054,7 @@
                     "var_name": "DataValue",
                     "data_type": "numeric",
                     "data_unit": "A",
-                    "data_example": 1e-10
+                    "data_example": 1.0e-10
                 },
                 "error": {
                     "eng_def ": "error of the value",
@@ -5117,7 +5117,7 @@
                 "eng_definition": "microscope model",
                 "alias": "",
                 "data_type": "string",
-                "data_example": "Zeiss 380 (2019년 모델)"
+                "data_example": "Zeiss 380 (2019\ub144 \ubaa8\ub378)"
             },
             "condition": {
                 "eng_definition": "observing condition",
@@ -5187,7 +5187,7 @@
                 "eng_definition": "TEM data analysis",
                 "var_name": "TEM data analysis",
                 "phases": {
-                    "eng_definition": "Phases observed in TEM/STEM images",
+                    "eng_definition": "Phases observed in TEM\/STEM images",
                     "var_name": "Phases",
                     "data type": "string",
                     "data example": "Agyrodite"
@@ -5246,7 +5246,7 @@
                 "eng_definition": "change in strain (deformation) of a material with respect to time",
                 "var_name": "StrainRate",
                 "data_type": "numeric",
-                "data_unit": "/s",
+                "data_unit": "\/s",
                 "data_example": 0.002
             }
         },
@@ -5263,7 +5263,7 @@
                 "eng_definition": "flow rate of reaction gas",
                 "var_name": "ThermalActivityFlowRate",
                 "data_type": "numeric",
-                "data_unit": "mL/min",
+                "data_unit": "mL\/min",
                 "data_example": 5
             },
             "temperature": {
@@ -5431,7 +5431,7 @@
                     "eng_definition": "Scan speed in case of continuous scan",
                     "var_name": "ScanSpeed",
                     "data_type": "numeric",
-                    "data_unit": "deg/min",
+                    "data_unit": "deg\/min",
                     "data_example": 2
                 },
                 "Time per step": {
@@ -5517,14 +5517,14 @@
                 "eng_definition": " the ratio of sum of the weight of water and additives to the volume of cement slurry.",
                 "var_name": "SlurryDensity",
                 "data_type": "numeric",
-                "data_unit": "kg/m^3",
+                "data_unit": "kg\/m^3",
                 "data_example": 1220
             },
             "viscosity": {
-                "eng_definition": "How easily a liquid flows and is a measure of the fluid’s resistance to gradual deformation by shear forces.",
+                "eng_definition": "How easily a liquid flows and is a measure of the fluid\u2019s resistance to gradual deformation by shear forces.",
                 "var_name": "Viscosity",
                 "data_type": "numeric",
-                "data_unit": "Ns/m^2",
+                "data_unit": "Ns\/m^2",
                 "data_example": 1
             },
             "polishing rate": {
@@ -5665,12 +5665,12 @@
                     "data_example": "Ir"
                 },
                 "concentration": {
-                    "eng_definition": "concentration of dopant in material_n",
+                    "eng_definition": "concentration of dopant in material_n",
                     "var_name": "Concentration",
                     "alias": "amount",
                     "data_type": "numeric",
                     "data_unit": "cm^(-3)",
-                    "data_example": 1e-7
+                    "data_example": 1.0e-7
                 },
                 "type": {
                     "eng_definition": "type of dopant",
@@ -5702,7 +5702,7 @@
                 "data_example": 0.75
             },
             "size of ingot": {
-                "eng_definition": "size of ingot ",
+                "eng_definition": "size of ingot ",
                 "var_name": "SizeOfIngot",
                 "data_type": "numeric",
                 "data_unit": "mm",
@@ -5795,7 +5795,7 @@
                 "eng_definition": "electrode serving as a reference for potential in the electrodeoposition system ",
                 "var_name": "ReferenceElectrode",
                 "data_type": "string",
-                "data_example": "Ag/AgCl; calomel; SHE"
+                "data_example": "Ag\/AgCl; calomel; SHE"
             },
             "reduction voltage": {
                 "eng_definition": "method of applying electric power",
@@ -5821,7 +5821,7 @@
                     "eng_definition": "data value",
                     "var_name": "Value",
                     "data_type": "numeric",
-                    "data_unit": "mA/cm^2",
+                    "data_unit": "mA\/cm^2",
                     "data_example": -0.1
                 },
                 "mode": {
@@ -5985,7 +5985,7 @@
                 "eng_definition": "rate at which temperature is raised to n-th holding(or target) temperature",
                 "var_name": "HeatingRate_(n)",
                 "data_type": "numeric",
-                "data_unit": "K/min",
+                "data_unit": "K\/min",
                 "data_example": 10
             },
             "holding temperature_(n)": {
@@ -6014,7 +6014,7 @@
                 "eng_definition": "rate at which temperature is lowered to the n-th final temperature",
                 "var_name": "CoolingRate_(n)",
                 "data_type": "numeric",
-                "data_unit": "K/min",
+                "data_unit": "K\/min",
                 "data_example": 10
             },
             "deformation cooling_(n)": {
@@ -6133,7 +6133,7 @@
                 "var_name": "Solution_(n)",
                 "alias": "",
                 "data_type": "string",
-                "data_example": "Ag/AgCl in 1M KOH; AgCl in 1M LiClO4; ethylene glycol (98% w/v)/water (2% w/v)"
+                "data_example": "Ag\/AgCl in 1M KOH; AgCl in 1M LiClO4; ethylene glycol (98% w\/v)\/water (2% w\/v)"
             },
             "temperature": {
                 "eng_definition": "Temperature for ion intercalation",
@@ -6179,12 +6179,12 @@
                     "data_example": "Ir"
                 },
                 "concentration": {
-                    "eng_definition": "concentration of dopant in material_n",
+                    "eng_definition": "concentration of dopant in material_n",
                     "var_name": "Concentration",
                     "alias": "amount",
                     "data_type": "numeric",
                     "data_unit": "dimensionless",
-                    "data_example": 1e-17
+                    "data_example": 1.0e-17
                 },
                 "type": {
                     "eng_definition": "type of dopant",
@@ -6216,7 +6216,7 @@
                 "data_example": 0.75
             },
             "size of ingot": {
-                "eng_definition": "size of ingot ",
+                "eng_definition": "size of ingot ",
                 "var_name": "SizeOfIngot",
                 "data_type": "numeric",
                 "data_unit": "mm",
@@ -6317,7 +6317,7 @@
                 "eng_definition": "the quantity of electric charge per squared centimeters",
                 "var_name": "AreaDose",
                 "data_type": "numeric",
-                "data_unit": "μC/cm^2",
+                "data_unit": "\u03bcC\/cm^2",
                 "data_example": 350
             },
             "lift-off": {
@@ -6328,7 +6328,7 @@
                     "eng_definition": "a chemical that can remove the sacrifical layer with a high selectivity",
                     "var_name": "Developer",
                     "data_type": "string",
-                    "data_exmaple": "MIBK/IPA_1:3"
+                    "data_exmaple": "MIBK\/IPA_1:3"
                 },
                 "time": {
                     "eng_definition": "time of lift-off process",
@@ -6343,7 +6343,7 @@
             "eng_definition": "lithography process data",
             "var_name": "Lithography",
             "light source": {
-                "eng_definition": "information of light source for lithography including VIS, UV and X-ray ",
+                "eng_definition": "information of light source for lithography including VIS, UV and X-ray ",
                 "var_name": "LightSource",
                 "type": {
                     "eng_definition": "method for making light of the specific wavelength",
@@ -6366,7 +6366,7 @@
                 "var_name": "Mask",
                 "alias": "",
                 "data_type": "string",
-                "data_example": "Cr; siloxane; PDMS-HSQ; "
+                "data_example": "Cr; siloxane; PDMS-HSQ; "
             },
             "photoresist": {
                 "eng_definition": "photosensitive material for patterning or e-beam sensitive material for pattering",
@@ -6421,11 +6421,11 @@
                     "var_name": "PhotonFlux",
                     "alias": "Phton flux density,Phton flux intensity",
                     "data_type": "numeric",
-                    "data_unit": "mW/cm2",
+                    "data_unit": "mW\/cm2",
                     "data_example": 30
                 },
                 "exposure time": {
-                    "eng_definition": "Time for exposure ",
+                    "eng_definition": "Time for exposure ",
                     "var_name": "ExposureTime",
                     "data_type": "numeric",
                     "data_unit": "second",
@@ -6439,27 +6439,27 @@
                         "eng_definition": "maximum dose underneath absorber to avoid development",
                         "var_name": "ThresholdDose",
                         "data_type": "numeric",
-                        "data_unit": "J/ccm",
+                        "data_unit": "J\/ccm",
                         "data_example": 100
                     },
                     "damage dose": {
                         "eng_definition": "maximum dose allowed at top of resist before bubble formation occurs",
                         "var_name": "DamageDose",
                         "data_type": "numeric",
-                        "data_unit": "J/ccm",
+                        "data_unit": "J\/ccm",
                         "data_example": 20000
                     },
                     "development dose": {
                         "eng_definition": "minimum dose needed at resist-substrate interface to completely dissolve the resist",
                         "var_name": "DevelopmentDose",
                         "data_type": "numeric",
-                        "data_unit": "J/ccm",
+                        "data_unit": "J\/ccm",
                         "data_example": 3500
                     }
                 }
             },
             "PR development": {
-                "eng_definition": "process to make a pattern on PR by removing exposed or unexposed region of PR ",
+                "eng_definition": "process to make a pattern on PR by removing exposed or unexposed region of PR ",
                 "var_name": "PRDevelopment",
                 "alias": "",
                 "data_type": "string",
@@ -6573,7 +6573,7 @@
                 "var_name": "GrowthChamberPressure",
                 "data_type": "numeric",
                 "data_unit": "Pa",
-                "data_example": 1e-8
+                "data_example": 1.0e-8
             },
             "source flux": {
                 "eng_definition": "Molecular beam flux of MBE source reaching a substrate",
@@ -6582,9 +6582,9 @@
                 "data_unit": "Torr",
                 "data_example": "3.5e-7; 2.5e-6"
             },
-            "V/III ratio": {
+            "V\/III ratio": {
                 "eng_definition": "The ratio of Group-V source flux to Group-III source flux",
-                "var_name": "V/IIIRatio",
+                "var_name": "V\/IIIRatio",
                 "data_type": "numeric",
                 "data_unit": "unitless",
                 "data_example": "5; 10; 20"
@@ -6593,7 +6593,7 @@
                 "eng_definition": "growth rate at which epitaxial layers are grown",
                 "var_name": "GrowthRate",
                 "data_type": "numeric",
-                "data_unit": "Angstrom/s",
+                "data_unit": "Angstrom\/s",
                 "data_example": 3
             },
             "growth time": {
@@ -6627,21 +6627,21 @@
                 "var_name": "MaterialRemovalRate",
                 "alias": "MRR",
                 "data_type": "numeric",
-                "data_unit": "cm^{3}/s",
+                "data_unit": "cm^{3}\/s",
                 "data_example": 3600
             },
             "contact stress": {
                 "eng_definition": " localized stresses that develop as two curved surfaces come in contact and deform slightly under the imposed loads",
                 "var_name": "ContactStress",
                 "data_type": "numeric",
-                "data_unit": "F/A",
+                "data_unit": "F\/A",
                 "data_example": 15
             },
             "relative velocity": {
                 "eng_definition": "Relative velocity between the wafer and polishing pad",
                 "var_name": "RelativeVelocity",
                 "data_type": "numeric",
-                "data_unit": "m/min",
+                "data_unit": "m\/min",
                 "data_example": 10
             },
             "Preston's coefficient": {
@@ -6709,7 +6709,7 @@
                     "var_name": "Fluence",
                     "alias": "",
                     "data_type": "numeric",
-                    "data_unit": "J/cm^2",
+                    "data_unit": "J\/cm^2",
                     "data_example": 5
                 },
                 "energy": {
@@ -6717,7 +6717,7 @@
                     "var_name": "Energy",
                     "alias": "",
                     "data_type": "numeric",
-                    "data_unit": "mJ/pulse",
+                    "data_unit": "mJ\/pulse",
                     "data_example": 300
                 }
             },
@@ -6782,7 +6782,7 @@
             }
         },
         "rinsing": {
-            "eng_definition": "specimen rinse by liquid ",
+            "eng_definition": "specimen rinse by liquid ",
             "var_name": "Rinsing",
             "temperature": {
                 "eng_definition": "Temperature of the rinsing process",
@@ -6910,7 +6910,7 @@
                 "var_name": "HeatingRate",
                 "alias": "",
                 "data_type": "numeric",
-                "data_unit": "K/s",
+                "data_unit": "K\/s",
                 "data_example": 10
             },
             "cooling rate": {
@@ -6918,7 +6918,7 @@
                 "var_name": "CoolingRate",
                 "alias": "",
                 "data_type": "numeric",
-                "data_unit": "K/s",
+                "data_unit": "K\/s",
                 "data_example": 10
             },
             "pressure applied": {
@@ -7211,7 +7211,7 @@
                 "alias": "",
                 "data_type": "numeric",
                 "data_unit": "bar",
-                "data_example": 0.000001
+                "data_example": 1.0e-6
             },
             "working pressure": {
                 "eng_definition": "the pressure during the sputter deposition process",
@@ -7219,7 +7219,7 @@
                 "alias": "processing pressure; sputtering pressure",
                 "data_type": "numeric",
                 "data_unit": "bar",
-                "data_example": 0.000001
+                "data_example": 1.0e-6
             },
             "gas flow rate": {
                 "eng_definition": "flow rate of gas that form ionized particles in an electric field  for sputtering process",
@@ -7315,12 +7315,12 @@
                     "data_example": "Ir"
                 },
                 "concentration": {
-                    "eng_definition": "concentration of dopant in material_n",
+                    "eng_definition": "concentration of dopant in material_n",
                     "var_name": "Concentration",
                     "alias": "amount",
                     "data_type": "numeric",
                     "data_unit": "cm^{-3}",
-                    "data_example": 1e-17
+                    "data_example": 1.0e-17
                 },
                 "type": {
                     "eng_definition": "type of dopant",
@@ -7352,7 +7352,7 @@
                 "data_example": 1
             },
             "size of ingot": {
-                "eng_definition": "size of ingot ",
+                "eng_definition": "size of ingot ",
                 "var_name": "SizeOfIngot",
                 "data_type": "numeric",
                 "data_unit": "mm",
